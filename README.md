@@ -2,6 +2,8 @@
 
 Some of my settings for my linux setup, so i can access them again after i fuck up my whole system.
 
+<img src="fastfetch.png">
+
 ## ✨ Content
 
 - **fastfetch/config.jsonc** » This is my custom fastfetch config.
