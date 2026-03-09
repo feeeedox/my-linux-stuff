@@ -1,0 +1,34 @@
+[Custom Commands][net.local.playerctl-2.desktop]
+Exec=playerctl volume 0.05-
+Name=Down
+
+[Custom Commands][net.local.playerctl-3.desktop]
+Exec=playerctl play-pause
+Name=Pause Playerctl
+
+[Custom Commands][net.local.playerctl-4.desktop]
+Exec=playerctl next
+Name=Next Playerctl
+
+[Custom Commands][net.local.playerctl-5.desktop]
+Exec=playerctl previous
+Name=Previous Playerctl
+
+[Custom Commands][net.local.playerctl.desktop]
+Exec=playerctl volume 0.05+
+Name=Up
+
+[net.local.playerctl-2.desktop][Global Shortcuts]
+_launch=Volume Down
+
+[net.local.playerctl-3.desktop][Global Shortcuts]
+_launch=Media Play
+
+[net.local.playerctl-4.desktop][Global Shortcuts]
+_launch=Media Next
+
+[net.local.playerctl-5.desktop][Global Shortcuts]
+_launch=Media Previous
+
+[net.local.playerctl.desktop][Global Shortcuts]
+_launch=Volume Up
